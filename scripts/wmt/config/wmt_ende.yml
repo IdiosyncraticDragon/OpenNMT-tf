@@ -1,13 +1,13 @@
 # The directory where models and summaries will be saved. It is created if it does not exist.
-model_dir: wmt_ende_transformer_4gpu_lr2_ws8000_dur2_0.998
+model_dir: /home/lgy/deepModels/tf_models/wmt_ende_transformer_4gpu_lr2_ws8000_dur2_0.998
 
 data:
-  train_features_file: data/train.en
-  train_labels_file: data/train.de
-  eval_features_file: data/valid.en
-  eval_labels_file: data/valid.de
-  source_words_vocabulary: data/wmtende.vocab
-  target_words_vocabulary: data/wmtende.vocab
+  train_features_file: /home/lgy/data/wmt/wmt14-de-en/amax/train.en
+  train_labels_file: /home/lgy/data/wmt/wmt14-de-en/amax/train.de
+  eval_features_file: /home/lgy/data/wmt/wmt14-de-en/amax/valid.en
+  eval_labels_file: /home/lgy/data/wmt/wmt14-de-en/amax/valid.de
+  source_words_vocabulary: /home/lgy/data/wmt/wmt14-de-en/amax/wmtende.vocab
+  target_words_vocabulary: /home/lgy/data/wmt/wmt14-de-en/amax/wmtende.vocab
 
 params:
   beam_width: 5
